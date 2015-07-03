@@ -1,6 +1,5 @@
 function something1 (x) {
-	x = x * 20;
-	return x;
+	return x * 20;
 }
 
 function something2 (x) {
@@ -11,8 +10,8 @@ function something2 (x) {
 }
 
 function something3 (x) {
-	x = 2000 / x;
-	return x;
+	return 2000 / x;
+
 }
 
 x = something1(something2(something3(20)));
